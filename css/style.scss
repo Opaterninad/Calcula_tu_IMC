@@ -1,0 +1,48 @@
+body {
+    background-color: #eae4d9;
+    color: #000000;
+    font-family: sans-serif;
+  }
+  
+  form {
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    width: 24%;
+    padding: 10px;
+    background-color: #ebe5d4;
+  }
+  
+  form label {
+    display: block;
+    line-height: 15px;
+    padding: 5px;
+    height: 15px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  form input {
+    width: 94%;
+    padding: 2px;
+    border: 0.7px solid rgb(131, 132, 129);
+    text-indent: 3px;
+    margin-left: 5px;
+  }
+  
+  form button {
+    width: 90%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  form button:hover {
+    background-color: #005C2B;
+  }
