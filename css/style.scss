@@ -56,23 +56,40 @@ form button:hover {
 @media (max-width: 768px) {
   #mensaje {
     margin-top: 38%;
+    margin-right: 10px;
   }
-
+  form input {
+    width: 100%;
 }
-
+}
 @media (max-width: 425px) {
   #mensaje {
-    margin-top: 68%;
-    
+    margin-top: 75%;
+    margin-right: 20px;
   }
   form button {
     width: 150%;
   }
+  form input {
+    width: 170%;
+}
 }
 
 @media (max-width: 375px) {
   #mensaje {
-    margin-top: 90%;
-    
+    margin-top: 90%;   
   }
+  form input {
+    width: 200%;
+}
+}
+
+@media (max-width: 320px) {
+  #mensaje {
+    margin-top: 100%;
+    margin-right: 10px;
+  }
+  form input {
+    width: 250%;
+}
 }
