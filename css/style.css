@@ -9,7 +9,6 @@ form {
   top: 50px;
   right: 50%;
   width: 24%;
-  padding: 10px;
   background-color: #ebe5d4;
 }
 
@@ -84,7 +83,7 @@ form button:hover {
 }
 @media (max-width: 320px) {
   #mensaje {
-    margin-top: 100%;
+    margin-top: 110%;
     margin-right: 10px;
   }
   form input {
