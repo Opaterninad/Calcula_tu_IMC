@@ -20,6 +20,7 @@ form label {
   height: 15px;
   text-align: left;
   font-size: 14px;
+  width: 300%;
 }
 
 form input {
@@ -31,7 +32,7 @@ form input {
 }
 
 form button {
-  width: 90%;
+  width: 80%;
   height: 40px;
   background-color: blue;
   color: white;
@@ -45,10 +46,28 @@ form button {
 
 form button:hover {
   background-color: #005C2B;
-}/*# sourceMappingURL=style.css.map */
-
+} 
 #mensaje {
   margin-top: 30%;
-   font-size: 14px;
-   margin-left: 25%;
+  font-size: 14px;
+  margin-left: 25%;
 }
+
+@media (max-width: 768px) {
+  #mensaje {
+    margin-top: 38%;
+  }
+}
+@media (max-width: 425px) {
+  #mensaje {
+    margin-top: 68%;
+  }
+  form button {
+    width: 150%;
+  }
+}
+@media (max-width: 375px) {
+  #mensaje {
+    margin-top: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
